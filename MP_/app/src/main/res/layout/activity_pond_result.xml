@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PondResultActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/namePond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginBottom="100dp"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- Game Over --"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/curScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score: 0"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:layout_marginTop="40dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/BtnBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Menu"
+        android:layout_marginTop="20dp"></Button>
+
+</LinearLayout>

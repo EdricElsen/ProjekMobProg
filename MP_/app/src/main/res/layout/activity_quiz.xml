@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+
+    >
+
+    <TextView
+
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Country Who Have This Landmark?"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="57px"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+
+    <Button
+        android:id="@+id/answerbutton1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Answer1"
+        android:layout_marginTop="80dp"
+        android:onClick="checkAnswer"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Button
+        android:id="@+id/answerbutton2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Answer2"
+        android:layout_marginTop="-100dp"
+        android:onClick="checkAnswer"
+        android:layout_marginLeft="230dp"
+        />
+
+    <Button
+        android:id="@+id/answerbutton3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Answer3"
+        android:layout_marginTop="30dp"
+        android:onClick="checkAnswer"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/answerbutton4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Answer4"
+        android:layout_marginTop="-100dp"
+        android:onClick="checkAnswer"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:id="@+id/quizName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
