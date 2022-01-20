@@ -58,10 +58,4 @@ public class QuizResultActivity extends AppCompatActivity {
     }
 
 
-//    public void returnTop(View view) {
-//        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-//        Cart.additem(a1,a2,totalScore.getText().toString());
-//        startActivity(intent);
-//
-//    }
 }
