@@ -94,7 +94,7 @@ public class PondActivity extends AppCompatActivity {
 
         }
 
-        public void changePos(){
+        public void Position(){
 
 //        collision detection
             collision();
@@ -260,7 +260,7 @@ public class PondActivity extends AppCompatActivity {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                changePos();
+                                Position();
                             }
                         });
                     }

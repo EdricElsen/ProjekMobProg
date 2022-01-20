@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         Button btnPond = findViewById(R.id.game1btn);
         Button btnMath = findViewById(R.id.game2btn);
         Button btnCapital = findViewById(R.id.game3btn);
-//        Button btnView = findViewById(R.id.scoreV);
         Button btnLogout = findViewById(R.id.btnLogout);
 
         String name = getIntent().getStringExtra("name");
@@ -91,14 +90,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-//        btnView.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(getApplicationContext(),ViewScoreActivity.class));
-//            }
-//        });
 
 
     }
