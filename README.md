@@ -27,7 +27,7 @@ nama kembali saat logout.
 Terdapat fitur Score dimana user dapat melihat semua user lainnya dengan game apa yang dimainakan dan jumlah scorenya juga.
 
 
-**UPDATE 01/02/2022**
+_________________**UPDATE 01/02/2022**_________________
 
 Dalam versi terbaru telah diimplementasikan 2 Kit dari HMS yaitu, Account Kit dan Ads Kit
 
