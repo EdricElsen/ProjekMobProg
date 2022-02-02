@@ -14,6 +14,7 @@ Applikasi Tri-Games ini berisikan 3 jenis game yang unik.
    Game ini berbasis sistem matematika tambah-tambahahan dimana game ini juga menggunakan sistem waktu dan poin.
    Waktu yang diberikan adalah 30 detik.
    Poin didapatkan dengan menjawab dengan benar dan jumlahnya berisi 10, namun jika jawaban yang dipilih salah maka poin akan **berkurang** sebanyak 10
+   ![alt text](https://github.com/EdricElsen/ProjekMobProg/blob/main/demo%20gif/Math.gif)
    
 3. The Capital
     Game ini berbasis quis yang mencakup landmark dan juga ibukota serta negara-negara.
