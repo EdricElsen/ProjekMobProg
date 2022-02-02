@@ -9,6 +9,7 @@ Applikasi Tri-Games ini berisikan 3 jenis game yang unik.
 1. Once a-pond a star
     Game berbasis sistem catch dimana user dapat touch dan drag layar untuk melakukan pergerakan pada lilypad.
     Tujuan game adalah untuk mengambil bintang sebanyak-banyaknya dan menghindari berlian merah
+    ![alt text](https://github.com/EdricElsen/ProjekMobProg/blob/main/demo%20gif/Pond_Star.gif)
     
 2. Math Quiz
    Game ini berbasis sistem matematika tambah-tambahahan dimana game ini juga menggunakan sistem waktu dan poin.
@@ -20,6 +21,7 @@ Applikasi Tri-Games ini berisikan 3 jenis game yang unik.
     Game ini berbasis quis yang mencakup landmark dan juga ibukota serta negara-negara.
     Terdapat 5 pertanyaan yang bisa dikerjakan dari 15 pertanyaan yang tersedia.
     Setiap jawaban yang benar maka user akan mendapatkan poin.
+    ![alt text](https://github.com/EdricElsen/ProjekMobProg/blob/main/demo%20gif/Quiz.gif)
     
 Aplikasi ini memiliki sistem login dan logout sederhana yang dapat user 
 gunakan dengan memasukkan nama pada saat pertama kali membuka aplikasi ataupun memasukkan
