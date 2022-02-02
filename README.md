@@ -25,3 +25,10 @@ gunakan dengan memasukkan nama pada saat pertama kali membuka aplikasi ataupun m
 nama kembali saat logout.
 
 Terdapat fitur Score dimana user dapat melihat semua user lainnya dengan game apa yang dimainakan dan jumlah scorenya juga.
+
+
+---------------------------**UPDATE 01/02/2022**---------------------------
+
+Dalam versi terbaru telah diimplementasikan 2 Kit dari HMS yaitu, Account Kit dan Ads Kit
+
+Kedua kit ini terdapat di halaman awal dan di halaman view score secara masing masing dan terpisah
